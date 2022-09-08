@@ -65,7 +65,7 @@ def calculate():
             list.delete(0, END)
             list.insert(END, 'something went wrong please enter again')
 
-
+#Operacje na liczbach
 operations = {'ADD': add, 'DODAJ': add, 'ADDITION': add, 'DODANIE': add, 'SUM': add, 'SUMUJ': add, 'PLUS': add, 'PODLICZYĆ': add, 'ZLICZAĆ': add, 'DOKŁADAĆ': add,
               'SUB': sub, 'ODJĄĆ': sub, 'ODEJMOWANIE': sub, 'ODEJMIJ': sub, 'DIFFERENCE': sub, 'Minus': sub, 'SUBTRACT': sub,
               'LCM': lcm, 'HCF': hcf, 'PRODUCT': mul, 'MULTIPLICATION': mul, 'POMNÓŻ': mul, 'MNOŻENIE': mul, 'MULTIPLICATION': mul, 'MULTIPLIKACJA': mul, 'REPRODUKOWANIE': mul, 'KALKOWANIE': mul,
